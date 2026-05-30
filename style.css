@@ -1,0 +1,68 @@
+/* navigation */
+.main-header {
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+height: 60px;
+background-color: rgb(52, 4, 48);
+z-index: 100;
+box-shadow: 0px 0px 50px gainsboro;
+}
+.header-icon {
+width: 40px;
+margin: 8px 15px;
+position: absolute;
+}
+.title {
+text-align: left;
+position: absolute;
+left: 30px;
+padding: 0;
+margin: 14px 30px 0px;
+color: rgb(209, 201, 228);
+}
+
+nav {
+position: absolute;
+right: 0;
+margin: 14px 30px 0px;
+}
+
+a {
+color: rgb(248, 233, 255);
+text-decoration: none;
+padding: 10px;
+font-weight: bold;
+}
+a:hover{
+    background-color:rgb(248, 233, 255);
+    color:  rgb(52, 4, 48);
+    padding-bottom: 20px;
+    outline: 2px solid rgb(52, 4, 48);
+}
+a.active{
+    background-color:rgb(248, 233, 255);
+    color:  rgb(52, 4, 48);
+    padding-bottom: 40px;
+    outline: 2px solid rgb(52, 4, 48);
+}
+.title {
+    font-family: "Dancing Script", cursive;
+    font-size: 35px;
+    font-weight: bold;
+}
+nav a {
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* home styling */
+
+
+/* cabinet styling */
+
+
+/* contact styling */
