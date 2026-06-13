@@ -1,0 +1,29 @@
+/* home styling */
+.homepage{
+    background-image:url(Assets/homepage\ bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    padding-top: 30px; 
+    box-sizing: border-box;/* Ensures padding doesn't break the 100vh height */
+}
+.homeTitle{
+  font-family:  "Agbalumo", system-ui;
+  color: rgb(215, 235, 255);
+  font-size: 65px;
+  display: flex;
+  justify-content: center;
+  text-shadow: 
+        /* --- LAYER 1: Close-range 2px shadow (Midnight Velvet) --- */
+        -2px -2px 0 #b41bbf,  2px -2px 0 #b41bbf, -2px  2px 0 #b41bbf,  2px  2px 0 #b41bbf,
+         0px -2px 0 #b41bbf,  0px  2px 0 #b41bbf, -2px  0px 0 #b41bbf,  2px  0px 0 #b41bbf,
+
+        /* --- LAYER 2: Extended 4px shadow (Pastel Pink) --- */
+        -4px -4px 0 #fbcfe8,  4px -4px 0 #fbcfe8, -4px  4px 0 #fbcfe8,  4px  4px 0 #fbcfe8,
+         0px -4px 0 #fbcfe8,  0px  4px 0 #fbcfe8, -4px  0px 0 #fbcfe8,  4px  0px 0 #fbcfe8,
+        -4px -2px 0 #fbcfe8,  4px -2px 0 #fbcfe8, -4px  2px 0 #fbcfe8,  4px  2px 0 #fbcfe8,
+        -2px -4px 0 #fbcfe8,  2px -4px 0 #fbcfe8, -2px  4px 0 #fbcfe8,  2px  4px 0 #fbcfe8;
+        /* di google tutorial cara bikin outline font */
+}

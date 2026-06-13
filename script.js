@@ -6,7 +6,7 @@ if (btnSubmit) {
         modal.classList.add('show');
         
         const next = document.querySelector('.next');
-        next.setAttribute('value', 'https://cobee-the-junior-programmer.netlify.app/contact.html');
+        next.setAttribute('value', ' ');
     });
 }
 
